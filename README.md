@@ -7,7 +7,4 @@ Participantes
 * Ramon Rezende
 * Wesley Silva
 
-Nosso Layout
-
-im
 

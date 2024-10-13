@@ -1,10 +1,26 @@
-* {padding: 0%; margin: 0%;}
-body{
-    background-color: #fef7ed;
 
+/* Estilos gerais aplicáveis a todas as páginas */
+body {
+   font-family: Arial, sans-serif; 
+   margin: 0;
+   padding: 0;
+   text-align: center; /* Centraliza o texto */
 }
 
-header{
+header {
+   width: 100%;
+   padding: 20px;
+   text-align: center;
+}
+
+
+/* Estilos para a página principal (index.html) */
+
+.home-page {
+   padding: 0%; margin: 0%;
+}
+
+.home-page header{
     background-color: #fef7ed;
     position: fixed;
     top: 0px;
@@ -15,45 +31,185 @@ header{
     z-index: 1;
 }
 
-.menu{
-    list-style:none;
-    float:right;
-    padding: 25px;
+.home-page body{
+   background-color: #fef7ed;
+
 }
 
-.menu li{
-    position:relative;
-    float: left;
-    border-right:1px solid #c0c0c0;
+
+.home-page .menu {
+   list-style: none; 
+   float: right; 
+   padding: 25px; 
 }
- a{
-    padding: 5px;  
- }
- img{
-    border-radius: 50%;
-    height: 470px;
-    width: 470px;
-    float: right;
-    padding: 25px;
- }
- div.div-1{
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
- }
- span{
-    color: #3a55b5;
-    font-size: 170px;
- }
- h3{
-    font-size: 31px;
-    color: #3a55b5;
- }
- button{
-    margin-top: 25px;
-    padding: 10px;
-    background-color: #3a55b5;
-    border: transparent;
-    border-radius: 10px;
-    color: #fef7ed;
- }
+
+.home-page .menu li {
+   position: relative;
+   float: left; 
+   border-right: 1px solid #c0c0c0; 
+}
+
+.home-page a {
+   padding: 5px;
+}
+
+.home-page img {
+   border-radius: 50%; 
+   height: 470px; 
+   width: 470px; 
+   float: right; 
+   padding: 25px;
+}
+
+.home-page .div-1 {
+   display: flex; 
+   align-items: center; 
+   margin-left: 25px; 
+}
+
+.home-page span {
+   color: #3a55b5; 
+   font-size: 170px; 
+}
+
+.home-page h3 {
+   font-size: 31px; 
+   color: #3a55b5; 
+}
+
+.home-page button {
+   margin-top: 25px; 
+   padding: 10px; 
+   background-color: #3a55b5; 
+   border: transparent; 
+   border-radius: 10px; 
+   color: #fef7ed; 
+}
+
+/*                         Estilos para a página Planos e Serviços (Planos_e_Serviços.html) 
+
+#F2ECE4 para fundo claro
+#3752A6 Azul
+#4A4A4A cinza
+#4B6F3D verde musgo
+#F28177 pessego
+
+a hover: É um pseudo-classe que aplica estilos quando o cursor do mouse está sobre o link.
+
+*/
+
+.Planos_e_Serviços {
+   background-color: #F2ECE4; /* Fundo creme claro para a página */
+   color: #4A4A4A; /* Cor do texto padrão */
+   
+}
+
+.Planos_e_Serviços header {
+   background-color: #3752A6; /* Azul escuro do cabeçalho */
+   color: #F2ECE4; /* Texto claro em creme */
+   padding: 20px; /* Espaçamento interno */
+   text-align: center; /* Centraliza o texto */
+   
+}
+
+.Planos_e_Serviços header h1 {
+   margin: 0; /* Remove margem do título principal */
+}
+
+.Planos_e_Serviços header h2 {
+   margin: 10px 0; /* Margem acima e abaixo do h2 */
+}
+
+.Planos_e_Serviços header h2 a {
+   color: #F2ECE4; /* Cor dos links em creme claro */
+   text-decoration: none; /* Remove sublinhado */
+   margin: 0 10px; /* Margem entre os links */
+}
+
+.Planos_e_Serviços header h2 a:hover {
+   text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+.Planos_e_Serviços img {
+   max-width: 100%; /* Imagem responsiva */
+   height: auto; /* Mantém a proporção da imagem */
+   margin: 20px 0; /* Margem em cima e embaixo das imagens */
+}
+
+.Planos_e_Serviços main {
+   padding: 20px; /* Espaçamento interno no main */
+}
+
+.Planos_e_Serviços h1 {
+   color: #F28177 ; /* Verde musgo para subtítulos */
+}
+
+.Planos_e_Serviços h2 {
+   color: #F28177 ; /* Verde musgo para subtítulos */
+}
+
+.Planos_e_Serviços h3, .Planos_e_Serviços h4 {
+   color: #F28177; /* Cor dos títulos de serviços em verde musgo */
+}
+
+.Planos_e_Serviços nav ul {
+   list-style-type: none; /* Remove marcadores da lista */
+   padding: 0; /* Remove padding */
+}
+
+.Planos_e_Serviços nav ul li {
+   display: inline; /* Exibe os itens da lista em linha */
+   margin-right: 20px; /* Margem à direita dos itens */
+}
+
+.Planos_e_Serviços nav a {
+   text-decoration: none; /* Remove sublinhado */
+   color: #3A55B5; /* Cor dos links em azul escuro */
+}
+
+.Planos_e_Serviços nav a:hover {
+   text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+.Planos_e_Serviços form {
+   margin: 20px 0; /* Margem em cima e embaixo do formulário */
+   padding: 20px; /* Espaçamento interno do formulário */
+   background-color: #FFFFFF; /* Fundo branco para o formulário */
+   border: 1px solid #DDDDDD; /* Borda leve */
+   border-radius: 5px; /* Bordas arredondadas */
+}
+
+.Planos_e_Serviços form label {
+   display: block; /* Cada label em uma nova linha */
+   margin: 10px 0 5px; /* Margem acima e abaixo das labels */
+   text-align: left; /* Centraliza o texto */
+}
+
+.Planos_e_Serviços form input[type="text"],
+.Planos_e_Serviços form input[type="email"],
+.Planos_e_Serviços form input[type="tel"] {
+   width: 100%; /* Largura total */
+   padding: 10px; /* Padding interno */
+   border: 1px solid #CCCCCC; /* Borda leve */
+   border-radius: 5px; /* Bordas arredondadas */
+}
+
+.Planos_e_Serviços form input[type="submit"] {
+   background-color: #2C4174; /* Verde musgo para o botão */
+   color: #FFFFFF; /* Cor do texto do botão em branco */
+   border: none; /* Remove borda */
+   padding: 10px 15px; /* Padding interno */
+   border-radius: 5px; /* Bordas arredondadas */
+   cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+.Planos_e_Serviços form input[type="submit"]:hover {
+   background-color: #2C4174; /* Cor do botão ao passar o mouse */
+}
+
+.Planos_e_Serviços footer {
+   text-align: center; /* Centraliza o texto do rodapé */
+   padding: 10px; /* Espaçamento interno */
+   background-color: #3A55B5; /* Cor de fundo do rodapé */
+   color: #F2ECE4; /* Cor do texto do rodapé em creme claro */
+}

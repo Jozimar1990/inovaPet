@@ -5,6 +5,6 @@ Participantes
 * Henrique da Silva Freitas
 * Jozimar Lima 
 * Ramon Rezende
-* Wesley Silva
+
 
 

@@ -1,5 +1,6 @@
 const header = document.querySelector("header");
 const h2 = document.createElement("h2");
+const logo = document.createElement("img")
 const paginas = [
     {
         titulo: "Página Inicial",
@@ -19,7 +20,10 @@ const paginas = [
     }
 ];
 
-
+header.appendChild(logo)
+// logo.setAttribute("href", paginas[0].href)
+logo.setAttribute("src", "")
+logo.setAttribute("alt", "logo")
 paginas.map((el, i)=>{
     const a = document.createElement("a");
     a.setAttribute("href", paginas[i].href)

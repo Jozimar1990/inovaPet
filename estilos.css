@@ -1,0 +1,42 @@
+*{
+    margin: 0x;
+}
+
+/* Estilização do cabeçalho */
+.header{
+    grid-area: cabecalho;
+    height: 10vh;
+    background-color: greenyellow;
+}
+/* Estilização do Corpo do */
+body{
+    display: grid;
+    grid-template-areas:
+    "cabecalho cabecalho"
+    "div-1 div-1"
+    "div-2 div-3"
+    "rodape rodape";
+    align-items: space-between;
+}
+/* Estilização do rodape */
+.footer{
+    grid-area: rodape;
+    height: 10vh;
+    background-color: greenyellow;
+}
+
+.div-1{
+    grid-area: div-1;
+    height: 10vh;
+    background-color: blueviolet;
+}
+
+.div-2{
+    grid-area: div-2;
+    height: 70vh;
+    background-color: blue;
+}
+.div-3{
+    grid-area: div-3;
+    background-color: yellow;
+}

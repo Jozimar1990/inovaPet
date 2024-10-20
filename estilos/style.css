@@ -8,9 +8,11 @@ body {
 }
 
 header {
+   display: flex;
    width: 100%;
    padding: 20px;
    text-align: center;
+   justify-content: center;
 }
 
 
@@ -32,11 +34,11 @@ a hover: É um pseudo-classe que aplica estilos quando o cursor do mouse está s
 }
 
 header {
+   grid-area: cabecalho;
    background-color: #3752A6; /* Azul escuro do cabeçalho */
    color: #F2ECE4; /* Texto claro em creme */
    padding: 20px; /* Espaçamento interno */
    text-align: center; /* Centraliza o texto */
-   
 }
 
 header h1 {
@@ -135,8 +137,53 @@ form input[type="submit"]:hover {
 }
 
 footer {
+   grid-area: rodape;
    text-align: center; /* Centraliza o texto do rodapé */
    padding: 10px; /* Espaçamento interno */
    background-color: #3A55B5; /* Cor de fundo do rodapé */
    color: #F2ECE4; /* Cor do texto do rodapé em creme claro */
+}
+
+.div-1{
+   grid-area: div1;
+   display: grid;
+   grid-template-areas: "div2 div3";
+   justify-content: center;
+   align-content: center;
+   height: 80vh;
+}
+.div-2{
+   grid-area: div2;
+   width: 50vw;
+   justify-items: end;
+}
+.div-3{
+   width: 50vw;
+   grid-area: div3;
+   justify-items: end;
+}
+#img-1{
+   max-width: 50%; /* Imagem responsiva */
+   height: auto; /* Mantém a proporção da imagem */
+   margin: 20px 0;
+   border-radius: 100%;
+}
+#span{
+   color: #F28177;
+   font-size: 64px;
+   font-weight: bold;
+}
+.div-2 button{
+   background-color: #3752A6;
+   color: #F2ECE4;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 5px;
+}
+.index{
+   display: grid;
+   grid-template-areas: 
+   "cabecalho"
+   "div1"
+   "rodape";
 }

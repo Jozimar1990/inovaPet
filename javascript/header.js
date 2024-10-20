@@ -1,6 +1,5 @@
 const header = document.querySelector("header");
 const h2 = document.createElement("h2");
-const a = document.createElement("a");
 const paginas = [
     {
         titulo: "Página Inicial",
@@ -20,6 +19,7 @@ const paginas = [
     }
 ];
 
+
 paginas.map((el, i)=>{
     const a = document.createElement("a");
     a.setAttribute("href", paginas[i].href)
@@ -28,9 +28,8 @@ paginas.map((el, i)=>{
 });
 header.appendChild(h2);
 
-
-
-/* <a href="index.html">Página inicial</a>
-        <a href="Planos_e_Serviços.html">Planos e Serviços</a>
-        <a href="sobre_nos.html">Sobre nós</a>
-        <a href="Minha_conta.html">Minha Conta</a> */
+/*  
+<a href="index.html">Página inicial</a>
+<a href="Planos_e_Serviços.html">Planos e Serviços</a>
+<a href="sobre_nos.html">Sobre nós</a>
+<a href="Minha_conta.html">Minha Conta</a> */

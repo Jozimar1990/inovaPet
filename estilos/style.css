@@ -14,79 +14,7 @@ header {
 }
 
 
-/* Estilos para a página principal (index.html) */
-
-.home-page {
-   padding: 0%; margin: 0%;
-}
-
-.home-page header{
-    background-color: #fef7ed;
-    position: fixed;
-    top: 0px;
-    height: auto;
-    width: 100%;
-    min-height: 106px;
-    left: 0px;
-    z-index: 1;
-}
-
-.home-page body{
-   background-color: #fef7ed;
-
-}
-
-
-.home-page .menu {
-   list-style: none; 
-   float: right; 
-   padding: 25px; 
-}
-
-.home-page .menu li {
-   position: relative;
-   float: left; 
-   border-right: 1px solid #c0c0c0; 
-}
-
-.home-page a {
-   padding: 5px;
-}
-
-.home-page img {
-   border-radius: 50%; 
-   height: 470px; 
-   width: 470px; 
-   float: right; 
-   padding: 25px;
-}
-
-.home-page .div-1 {
-   display: flex; 
-   align-items: center; 
-   margin-left: 25px; 
-}
-
-.home-page span {
-   color: #3a55b5; 
-   font-size: 170px; 
-}
-
-.home-page h3 {
-   font-size: 31px; 
-   color: #3a55b5; 
-}
-
-.home-page button {
-   margin-top: 25px; 
-   padding: 10px; 
-   background-color: #3a55b5; 
-   border: transparent; 
-   border-radius: 10px; 
-   color: #fef7ed; 
-}
-
-/*                         Estilos para a página Planos e Serviços (Planos_e_Serviços.html) 
+/* Estilos para a página Planos e Serviços (Planos_e_Serviços.html) 
 
 #F2ECE4 para fundo claro
 #3752A6 Azul
@@ -98,10 +26,9 @@ a hover: É um pseudo-classe que aplica estilos quando o cursor do mouse está s
 
 */
 
-.Planos_e_Serviços {
+{
    background-color: #F2ECE4; /* Fundo creme claro para a página */
-   color: #4A4A4A; /* Cor do texto padrão */
-   
+   color: #4A4A4A; /* Cor do texto padrão */ 
 }
 
 header {
@@ -185,16 +112,16 @@ form label {
    text-align: left; /* Centraliza o texto */
 }
 
-.Planos_e_Serviços form input[type="text"],
-.Planos_e_Serviços form input[type="email"],
-.Planos_e_Serviços form input[type="tel"] {
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
    width: 100%; /* Largura total */
    padding: 10px; /* Padding interno */
    border: 1px solid #CCCCCC; /* Borda leve */
    border-radius: 5px; /* Bordas arredondadas */
 }
 
-.Planos_e_Serviços form input[type="submit"] {
+form input[type="submit"] {
    background-color: #2C4174; /* Verde musgo para o botão */
    color: #FFFFFF; /* Cor do texto do botão em branco */
    border: none; /* Remove borda */
@@ -203,11 +130,11 @@ form label {
    cursor: pointer; /* Muda o cursor ao passar o mouse */
 }
 
-.Planos_e_Serviços form input[type="submit"]:hover {
+form input[type="submit"]:hover {
    background-color: #2C4174; /* Cor do botão ao passar o mouse */
 }
 
-.Planos_e_Serviços footer {
+footer {
    text-align: center; /* Centraliza o texto do rodapé */
    padding: 10px; /* Espaçamento interno */
    background-color: #3A55B5; /* Cor de fundo do rodapé */

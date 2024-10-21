@@ -22,6 +22,7 @@ const paginas = [
 
 header.appendChild(logo)
 // logo.setAttribute("href", paginas[0].href)
+logo.setAttribute("class", "item item1")
 logo.setAttribute("src", "")
 logo.setAttribute("alt", "logo")
 paginas.map((el, i)=>{
@@ -30,6 +31,7 @@ paginas.map((el, i)=>{
     a.innerHTML = paginas[i].titulo
     h2.appendChild(a)
 });
+h2.setAttribute("class", "item item2")
 header.appendChild(h2);
 
 /*  

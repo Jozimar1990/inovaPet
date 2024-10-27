@@ -105,10 +105,12 @@ nav a:hover {
 
 form {
    margin: 20px; /* Margem em cima e embaixo do formulário */
-   padding: 20px; /* Espaçamento interno do formulário */
+   padding: 10px; /* Espaçamento interno do formulário */
+   margin-right: 20px;
    background-color: #FFFFFF; /* Fundo branco para o formulário */
    border: 1px solid #DDDDDD; /* Borda leve */
    border-radius: 5px; /* Bordas arredondadas */
+   /* width: 90vw;*/
 }
 
 form label {
@@ -120,9 +122,9 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"] {
-   width: 100%; /* Largura total */
+   width: 95%; /* Largura total */
    margin: 10px;
-   max-width: 600px;
+   margin-right: 10px;
    padding: 10px; /* Padding interno */
    border: 1px solid #CCCCCC; /* Borda leve */
    border-radius: 5px; /* Bordas arredondadas */

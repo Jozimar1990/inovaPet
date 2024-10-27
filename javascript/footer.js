@@ -5,10 +5,11 @@ textSigaNos = document.createElement("p"),
 p = document.createElement('p'),
 ul = document.createElement('ul')
 redesSociais = [
-    { icone: "fab fa-facebook", link: "https://www.facebook.com/SeuPerfil" },
-    { icone: "fab fa-instagram", link: "https://www.instagram.com/SeuPerfil" },
+    { icone: "fab fa-facebook", link: "https://www.facebook.com/SeuPerfil"},
+    { icone: "fab fa-instagram", link: "https://www.instagram.com/SeuPerfil"},
     { icone: "fab fa-twitter", link: "https://www.twitter.com/SeuPerfil" },
-    { icone: "fab fa-linkedin", link: "https://www.linkedin.com/in/SeuPerfil" }
+    { icone: "fab fa-linkedin", link: "https://www.linkedin.com/in/SeuPerfil"}
+    // <i class="fa-brands fa-x-twitter"></i>
 ];
 p.innerHTML = "© 2024 InovaPet. Todos os direitos reservados."
 textSigaNos.innerText = "Siga-nos"
@@ -29,6 +30,7 @@ for(let i = 0; i < redesSociais.length; i++){
     ul.appendChild(li) // Adiciona a tag "li" dentro da "ul"
 }
 sigaNos.id = "siga-nos"
+p.id = "p-footer"
 div.appendChild(p);
 sigaNos.appendChild(textSigaNos);
 sigaNos.appendChild(ul);

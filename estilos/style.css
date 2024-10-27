@@ -31,7 +31,7 @@ a hover: É um pseudo-classe que aplica estilos quando o cursor do mouse está s
 */
 
 p{
-   background-color: #F2ECE4; /* Fundo creme claro para a página */
+   /* background-color: #F2ECE4; Fundo creme claro para a página */
    color: #4A4A4A; /* Cor do texto padrão */ 
 } 
 
@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 form {
-   margin: 20px 0; /* Margem em cima e embaixo do formulário */
+   margin: 20px; /* Margem em cima e embaixo do formulário */
    padding: 20px; /* Espaçamento interno do formulário */
    background-color: #FFFFFF; /* Fundo branco para o formulário */
    border: 1px solid #DDDDDD; /* Borda leve */
@@ -113,7 +113,7 @@ form {
 
 form label {
    display: block; /* Cada label em uma nova linha */
-   margin: 10px 0 5px; /* Margem acima e abaixo das labels */
+   margin: 10px 0; /* Margem acima e abaixo das labels */
    text-align: left; /* Centraliza o texto */
 }
 
@@ -121,6 +121,8 @@ form input[type="text"],
 form input[type="email"],
 form input[type="tel"] {
    width: 100%; /* Largura total */
+   margin: 10px;
+   max-width: 600px;
    padding: 10px; /* Padding interno */
    border: 1px solid #CCCCCC; /* Borda leve */
    border-radius: 5px; /* Bordas arredondadas */
@@ -153,7 +155,7 @@ footer ul{
    list-style-type: none;
    gap: 10px;
 }
-footer i, p{
+footer i, #p-footer, #siga-nos p{
    color: #F2ECE4;
    font-size: 24px;
 

@@ -31,7 +31,7 @@ a hover: É um pseudo-classe que aplica estilos quando o cursor do mouse está s
 */
 
 p{
-   //background-color: #F2ECE4; /* Fundo creme claro para a página */
+   background-color: #F2ECE4; /* Fundo creme claro para a página */
    color: #4A4A4A; /* Cor do texto padrão */ 
 } 
 

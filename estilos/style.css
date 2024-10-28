@@ -30,10 +30,80 @@ a hover: É um pseudo-classe que aplica estilos quando o cursor do mouse está s
 
 */
 
-.body_planoseservicos {
+/* .body_planoseservicos {
    display:flex
 
+} */
+
+.plano-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
 }
+
+.tipo-plano {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   margin: 20px 0;
+   padding: 20px;
+   background-color: #F2ECE4;
+   border-radius: 8px;
+}
+
+.servicos-incluidos {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 90%;
+   margin: 15px 0;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 5px;
+}
+
+.servicos-incluidos h4 {
+   align-self: flex-start;
+   color: #F28177;
+   margin-bottom: 15px;
+}
+
+.servicos-incluidos .conteudo {
+   text-align: left;
+   margin: 5px 0;
+   line-height: 1.6;
+}
+
+.tipo-plano img {
+   max-width: 400px;
+   height: auto;
+   border-radius: 10px;
+   margin: 20px 0;
+}
+
+.consulta-especialista {
+   font-style: italic;
+   color: #4A4A4A;
+   margin: 15px 0;
+}
+.tipo-plano {
+      padding: 10px;
+  }
+  
+.servicos-incluidos {
+      width: 95%;
+      padding: 15px;
+  }
+  
+.tipo-plano img {
+      max-width: 100%;
+  }
+
+
 
 p{
    /* background-color: #F2ECE4; Fundo creme claro para a página */
@@ -266,5 +336,7 @@ footer i, #p-footer, #siga-nos p{
       display: flex;
       flex-direction: column-reverse;
    }
+
 }
+
 /* Estilização do footer */

@@ -7,7 +7,7 @@ ul = document.createElement('ul')
 redesSociais = [
     { icone: "fab fa-facebook", link: "https://www.facebook.com/SeuPerfil"},
     { icone: "fab fa-instagram", link: "https://www.instagram.com/SeuPerfil"},
-    { icone: "fab fa-twitter", link: "https://www.twitter.com/SeuPerfil" },
+    { icone: "fa-brands fa-x-twitter", link: "https://www.twitter.com/SeuPerfil"},
     { icone: "fab fa-linkedin", link: "https://www.linkedin.com/in/SeuPerfil"}
     // <i class="fa-brands fa-x-twitter"></i>
 ];

@@ -23,7 +23,7 @@ const paginas = [
 header.appendChild(logo)
 // logo.setAttribute("href", paginas[0].href)
 logo.setAttribute("class", "item item1")
-logo.setAttribute("src", "")
+logo.setAttribute("src", "imagens/inovapet.svg")
 logo.setAttribute("alt", "logo")
 paginas.map((el, i)=>{
     const a = document.createElement("a");

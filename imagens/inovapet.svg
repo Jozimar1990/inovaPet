@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080" width="1080" height="1080">
+ <defs >
+  <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Rock Salt:bi,normal,i,b');  </style>
+ </defs>
+ <g className="page" style="">
+  <rect x="0" y="0" width="1080" height="1080" fill="rgb(0, 0, 0, 0)">
+  </rect>
+  <g className="element" id="2k2j5bAXWh" transform="translate(328.46337762567725, 500) rotate(0)"  style="transform-origin:top left; filter:;">
+   <g >
+    <text fill="rgba(242,236,228,1)" y="65.26166180875003" font-size="65.26166180875003px" text-anchor="middle" font-family="Rock Salt" font-style="italic" font-weight="bold"  line-height="1.2" letter-spacing="0em" stroke-width="0" stroke="black">
+     <tspan x="212.63398545748746" dy="0">InovaPet     </tspan>
+    </text>
+   </g>
+  </g>
+  <g className="element" id="pcFVgmF3lF" transform="translate(139.87829614605616, 399.8393397673292) rotate(0)"  style="transform-origin:top left; filter:;">
+   <g style="transform:;">
+    <defs >
+     <clipPath id="clip-pcFVgmF3lF">
+      <rect x="0" y="0" width="280.3213204653417" height="280.3213204653417">
+      </rect>
+     </clipPath>
+    </defs>
+    <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAwIDEwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PHBhdGggZD0iTTY2LjAyLDMxLjc2OGMtMy42MjEsNC44MDEtOS40NTcsNi42MTYtMTMuMDU5LDQuMDI1Yy0zLjU2NC0yLjU3MS0zLjUzNy04LjU0NywwLjExNS0xMy4zNjcgICBjMy42MTUtNC44MDcsOS40NTMtNi42MywxMy4wMTgtNC4wMzlDNjkuNjk1LDIwLjk2Nyw2OS42NTgsMjYuOTQxLDY2LjAyLDMxLjc2OHoiIHN0eWxlPSJmaWxsOiByZ2IoMjQyLCAyMzYsIDIyOCk7Ii8+PHBhdGggZD0iTTQ1Ljg2LDMxLjQ1M2MtMy42Miw0Ljc5Ny05LjQ2NSw2LjYxMS0xMy4wNTgsNC4wMzFjLTMuNTc0LTIuNTYzLTMuNTM3LTguNTUyLDAuMTAyLTEzLjM3MiAgIGMzLjYzNC00LjgwMiw5LjQ1Ni02LjYzLDEzLjA0NC00LjA0QzQ5LjUzMSwyMC42NTMsNDkuNDk0LDI2LjYzMyw0NS44NiwzMS40NTN6IiBzdHlsZT0iZmlsbDogcmdiKDI0MiwgMjM2LCAyMjgpOyIvPjxwYXRoIGQ9Ik02OC4yMzYsMzMuOTc5Yy00Ljc5MywzLjYyLTYuNjA0LDkuNDY2LTQuMDI3LDEzLjA0OWMyLjU1OSwzLjU3NCw4LjU1MSwzLjU0NiwxMy4zNTQtMC4xMDIgICBjNC44My0zLjYyNSw2LjYzMS05LjQ1Nyw0LjA2My0xMy4wM0M3OS4wMjEsMzAuMzEzLDczLjA0NywzMC4zNSw2OC4yMzYsMzMuOTc5eiIgc3R5bGU9ImZpbGw6IHJnYigyNDIsIDIzNiwgMjI4KTsiLz48cGF0aCBkPSJNNjguNTEyLDU0LjE4NGMtNC44MDEsMy42MjUtNi42MTEsOS40NzktNC4wMjUsMTMuMDYzYzIuNTU5LDMuNTY0LDguNTMzLDMuNTM3LDEzLjM1NC0wLjExICAgYzQuODItMy42Miw2LjYyMS05LjQ3MSw0LjA0NS0xMy4wMzVDNzkuMzA5LDUwLjUxOCw3My4zMjQsNTAuNTQ1LDY4LjUxMiw1NC4xODR6IiBzdHlsZT0iZmlsbDogcmdiKDI0MiwgMjM2LCAyMjgpOyIvPjxwYXRoIGQ9Ik02MC42NDUsNjIuNTM3Yy0yLjM4My03LjA5MywwLjM1Mi0xMy43NzgtNC41NDMtMTguNjY4Yy00LjkwOC00LjkxOC0xMS41NjItMi4xNjYtMTguNjczLTQuNTY2ICAgYy0xMS4xMjMtMy43NjQtMjMuODgsNS4yMy0xOS42NjEsMTYuMTE0YzMuNDY4LDguOTY3LDguNTQ3LDYuOTUzLDE0LjIwMywxMi41OTZjNS42MjQsNS42MjQsMy42MiwxMC44MTMsMTIuNTY4LDE0LjI2OCAgIEM1NS40MzYsODYuNTEsNjQuNDMyLDczLjY1NSw2MC42NDUsNjIuNTM3eiIgc3R5bGU9ImZpbGw6IHJnYigyNDIsIDIzNiwgMjI4KTsiLz48L2c+PC9zdmc+" x="0" y="0" width="280.3213204653417" height="280.3213204653417" preserveAspectRatio="none" clip-path="url(#clip-pcFVgmF3lF)">
+    </image>
+   </g>
+  </g>
+  <g className="element" id="iadq7r0bTt" transform="translate(255.0726450130037, 510.60889656915174) rotate(45.00000000000004)"  style="transform-origin:top left; filter:;">
+   <g style="transform:;">
+    <defs >
+     <clipPath id="clip-iadq7r0bTt">
+      <rect x="0" y="0" width="76.47026793077565" height="76.47026793077532">
+      </rect>
+     </clipPath>
+    </defs>
+    <image xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDkzLjYxNSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAwIDkzLjYxNSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTk5Ljg2NiwyMy4zNTNDOTguNTMzLDEwLjIzNSw4Ny40NTYsMCw3My45ODgsMEM2My4xOTMsMCw1My45MzgsNi41NzUsNTAsMTUuOTM3QzQ2LjA2Miw2LjU3NSwzNi44MDcsMCwyNi4wMTMsMCAgQzEyLjU0NCwwLDEuNDY2LDEwLjIzNSwwLjEzNCwyMy4zNTNDMC4wNDUsMjQuMjI3LDAsMjUuMTE1LDAsMjYuMDEzYzAsMzEuNjA2LDM4Ljc4OCw0Ni41MjMsNTAsNjcuNjAzaDAgIGMxMS4yMTItMjEuMDc5LDUwLTM1Ljk5Niw1MC02Ny42MDNDMTAwLDI1LjExNSw5OS45NTUsMjQuMjI3LDk5Ljg2NiwyMy4zNTN6IiBzdHlsZT0iZmlsbDogcmdiKDU1LCA4MiwgMTY2KTsiLz48L3N2Zz4=" x="0" y="0" width="81.56828579282701" height="76.47026793077532" preserveAspectRatio="none" clip-path="url(#clip-iadq7r0bTt)">
+    </image>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,106 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InovaPet - Planos e Serviços</title>
+    <link rel="stylesheet" href="estilos/planos.css">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="javascript/header.js" defer></script>
-    <script src="javascript/footer.js" defer></script>
-</head>
 
+</head>
 <body>
     <header>
-      <!-- Conteúdo feito no JavaScript -->
+        <!-- Conteúdo do header via JavaScript -->
     </header>
+
     <main>
-      <div class="plano-container">
-            <h1>Nossos Serviços</h1>
+        <section class="planos-container" id="planos">
+            <div class="planos-sobre"> <!--sobre planos geral-->
+                <img src="imagens/plano_pet.png" alt="Veterinário cuidando de um animal de estimação" id="imagem-veterinario" >
+                <h2>Para cada necessidade, um plano que protege seu pet com carinho e eficiência.</h2>
+                <p>Em nossa empresa, os planos foram desenhados para se adaptar às necessidades de cada pet e de cada família. Seja para cobrir emergências, cuidados preventivos, ou tratamentos avançados, oferecemos uma cobertura acessível e completa que coloca o bem-estar do seu animal em primeiro lugar. Vamos ajudar você a garantir a saúde e felicidade do seu pet em todos os momentos da vida dele.</p>
+
+
+            </div>
+            <div class="plano-basico-sobre"> <!--sobre plano basico-->
+                <img src="imagens/cachorro2.png" alt="Cachorro feliz plano basico" id="imagem-basico" >
+                <h2>Plano Básico: </h2>
+                <p>O plano essencial para quem busca segurança e praticidade no dia a dia. Com uma cobertura de serviços urgentes e exames, o plano Básico oferece atendimento ambulatorial e telemedicina, além de opções como transporte e assistência funeral. Perfeito para cuidar de forma eficiente e econômica da saúde do seu pet.</p>
+
+            </div>
+            <div class="plano-plus-sobre"> <!--sobre plano plus-->
+                <img src="imagens/gato2.png" alt="Gato feliz plano plus" id="imagem-plus">
+                <h2>Plano Plus: </h2>
+                <p>Uma cobertura mais abrangente, o plano Plus inclui consultas de rotina, vacinas, e até tratamentos como fisioterapia e acupuntura. Além dos serviços do plano Básico, você conta com banho e tosa e cuidados odontológicos, para um acompanhamento completo. Ideal para donos que querem oferecer ao pet uma atenção contínua e preventiva.</p>
+
+            </div>
             
-            <div>
-                <img src="imagens/plano_pet.jpg" alt="Veterinário cuidando de um animal de estimação">
-                <p class="conteudo">Oferecemos o melhor cuidado veterinário para seu animal de estimação, com serviços completos e suporte 24h.</p>
+            <div class="plano-top-sobre"> <!--sobre plano top-->
+                <img src="imagens/lovepet.png" alt="lovepet plano plus" id="imagem-top">
+                <h2>Plano Top:</h2>
+                <p>A melhor opção para quem busca uma cobertura premium. O plano Top inclui todos os serviços essenciais e preventivos dos planos anteriores, além de tratamentos odontológicos completos, castração e um valor anual de cobertura elevado para garantir proteção total em qualquer situação. É a escolha certa para quem prioriza a saúde e o bem-estar integral do seu animal de estimação.</p>
             </div>
 
-            <!-- Seção dos planos caninos -->
-            <div class="tipo-plano">
-                <h2>Planos para Caninos</h2>
-                <img src="imagens/cachorro1.jpg" alt="foto de cachorro feliz colorida">
-                <p class="conteudo">Planos personalizados para atender todas as necessidades de saúde e bem-estar do seu cão.</p>
 
-                <h3>Plano Canino Adulto e filhote até 10Kg</h3>
-                
-                <div class="servicos-incluidos">
-                    <h4>Serviços incluídos:</h4>
-                    <p class="conteudo">
-                        02 consultas em horário comercial
-                        01 consulta em plantão
-                        01 consulta com especialista
-                        03 hemogramas
-                        Vacinas: polivalente (V8), raiva e leptospirose
-                        Perfil cirúrgico II (até 8 anos) + exames pré-cirúrgicos
-                        Castração ou tartarectomia com anestesia inalatória
-                        03 diárias de internamento (com até 8 medicações simples)
-                        01 ultrassonografia
-                        01 raio-X simples
-                        Benefícios: Sem carência
-                    </p>
-                </div>
-                <p class="consulta-especialista">Para planos acima do peso informado, consulte nossos especialistas</p>
+
+            <div class="plano-card"> <!--detalhe plano basico-->
+              <h2 class="plano-titulo">Básico</h2>
+              <div class="plano-preco">R$59,90</div>
+              <ul class="plano-beneficios">
+                <li class="beneficio-item">Transporte do pet</li>
+                <li class="beneficio-item">Consulta de urgência e emergência</li>
+                <li class="beneficio-item">Consulta de segunda opinião</li>
+                <li class="beneficio-item">Hotel do pet</li>
+                <li class="beneficio-item">Exames laboratoriais</li>
+                <li class="beneficio-item">Exames de imagem</li>
+                <li class="beneficio-item">Atendimento Ambulatorial</li>
+                <li class="beneficio-item">Cirurgia</li>
+                <li class="beneficio-item">Internação</li>
+                <li class="beneficio-item">Assistência funeral</li>
+                <li class="beneficio-item">Telemedicina</li>
+              </ul>
+              <div class="cobertura-anual">+Cobertura Anual: R$3.000</div>
+              <button class="detalhes-toggle">Contratar Plano Básico</button>
             </div>
-
-            <!-- Seção dos planos felinos -->
-            <div class="tipo-plano">
-                <h2>Planos para Felinos</h2>
-                <img src="imagens/gato1.jpg" alt="Foto de gato feliz colorida">
-                <p class="conteudo">Cuidados especiais e planos de saúde exclusivos para seu gato, garantindo segurança e tranquilidade.</p>
-                
-                <h3>Plano Felino Adulto e filhote</h3>
-                
-                <div class="servicos-incluidos">
-                    <h4>Serviços incluídos:</h4>
-                    <p class="conteudo">
-                        02 consultas em horário comercial
-                        01 consulta em plantão
-                        01 consulta com especialista
-                        03 hemogramas
-                        Vacinas: quádrupla (V4) e raiva
-                        Perfil cirúrgico II (até 8 anos) + exames pré-cirúrgicos
-                        Castração ou tartarectomia com anestesia inalatória
-                        03 diárias de internamento (com até 8 medicações simples)
-                        01 ultrassonografia
-                        01 raio-X simples
-                        Benefícios: Sem carência
-                    </p>
-                </div>
-                <p class="consulta-especialista">Para planos acima do peso informado, consulte nossos especialistas</p>
+          
+            <div class="plano-card"> <!--detalhe plano plus-->
+              <h2 class="plano-titulo">Plus</h2>
+              <div class="plano-preco">R$129,90</div>
+              <ul class="plano-beneficios">
+                <li class="beneficio-item">Transporte do pet</li>
+                <li class="beneficio-item">Consulta de urgência e emergência</li>
+                <li class="beneficio-item">Consulta de segunda opinião</li>
+                <li class="beneficio-item">Hotel do pet</li>
+                <li class="beneficio-item">Exames laboratoriais</li>
+                <li class="beneficio-item">Exames de imagem</li>
+                <li class="beneficio-item">Atendimento Ambulatorial</li>
+                <li class="beneficio-item">Cirurgia</li>
+                <li class="beneficio-item">Internação</li>
+                <li class="beneficio-item">Assistência funeral</li>
+                <li class="beneficio-item">Telemedicina</li>
+                <li class="beneficio-item">Consulta de rotina</li>
+                <li class="beneficio-item">Consulta com especialista</li>
+                <li class="beneficio-item">Acupuntura e fisioterapia</li>
+                <li class="beneficio-item">Banho e tosa</li>
+                <li class="beneficio-item">Aplicação de vacinas</li>
+                <li class="beneficio-item">Castração</li>
+                <li class="beneficio-item">Tratamento odontológico de urgência</li>
+                <li class="beneficio-item">Limpeza de cálculo dentário</li>
+              </ul>
+              <div class="cobertura-anual">+Cobertura Anual: R$5.000</div>
+              <button class="detalhes-toggle">Contratar Plano Plus</button>
             </div>
+          
+            <div class="plano-card"> <!--detalhe plano top-->
+              <h2 class="plano-titulo">Top</h2>
+              <div class="plano-preco">R$249,90</div>
+              <ul class="plano-beneficios">
+                <li class="beneficio-item">Transporte do pet</li>
+                <li class="beneficio-item">Consulta de urgência e emergência</li>
+                <li class="beneficio-item">Consulta de segunda opinião</li>
+                <li class="beneficio-item">Hotel do pet</li>
+                <li class="beneficio-item">Exames laboratoriais</li>
+                <li class="beneficio-item">Exames de imagem</li>
+                <li class="beneficio-item">Atendimento Ambulatorial</li>
+                <li class="beneficio-item">Cirurgia</li>
+                <li class="beneficio-item">Internação</li>
+                <li class="beneficio-item">Assistência funeral</li>
+                <li class="beneficio-item">Telemedicina</li>
+                <li class="beneficio-item">Consulta de rotina</li>
+                <li class="beneficio-item">Consulta com especialista</li>
+                <li class="beneficio-item">Acupuntura e fisioterapia</li>
+                <li class="beneficio-item">Banho e tosa</li>
+                <li class="beneficio-item">Aplicação de vacinas</li>
+                <li class="beneficio-item">Tratamento odontológico de urgência</li>
+              </ul>
+              <div class="cobertura-anual">+Cobertura Anual: R$10.000</div>
+              <button class="detalhes-toggle">Contratar Plano Top</button>
+            </div>
+          </section>
 
-            <!-- Seção final -->
-            <section>
-                <h2>O melhor plano para seu Pet</h2>
-                <p class="conteudo">Aqui você pode encontrar as melhores opções para manter seu pet seguro contra imprevistos, deixe suas informações aqui que um especialista entrará em contato hoje.</p>
-            </section>
-        </main>
 
-      <!-- Formulário de contato -->
-        <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br><br>
+        <div class="formulario-container" id="formulario">
+            <h2 class="formulario-titulo">Preencha os dados para contratação</h2>
+            <form class="formulario">
+              <div class="form-group"> <!-- nome -->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+              </div>
+              <div class="form-group"> <!-- email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+              </div>
+              <div class="form-group"><!-- telefone -->
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+              </div>
+              <div class="form-group"><!-- endereço -->
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" name="address" required>
+              </div>
+              <input type="submit" value="Garantir a saúde do meu Pet">
+              
+              <!--button type="submit" class="submit-button">Garantir a saúde do meu Pet</button> >>>>> Botão de envio -->
+            
+            </form>
+          </div>
     
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email"><br><br>
-    
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone"><br><br>
-    
-        <input type="submit" value="Enviar">
-        </form>
-        <footer>
-          <!-- Conteúdo criado em JavaScript -->
-      </footer>
-  
+    <main>
+
+    <footer>
+      <!-- Conteúdo criado em JavaScript -->
+    </footer>
+
+    <script src="javascript/header.js"></script>
+    <script src="javascript/footer.js"></script>
+    <script src="javascript/formulario.js"></script>
 </body>
-
 </html>

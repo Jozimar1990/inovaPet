@@ -1,0 +1,274 @@
+/* Arquivo: estilos/planos.css */
+/* Cores
+#3a5f11 Verde escuro 
+#5c7e24 Verde claro
+#061940 Azul escuro
+#075473 Azul claro
+
+*/
+
+
+/* Estilos do título principal */
+.planos-titulo {
+    color: #3752A6;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Container dos planos */
+.planos-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Card individual do plano */
+.plano-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+}
+.plano-card:hover {
+    transform: translateY(-5px);
+}
+/* Título do plano */
+.plano-titulo {
+    font-size: 1.5rem;
+    color: #3a5f11;
+    margin-bottom: 0.5rem;
+}
+/* Preço do plano */
+.plano-preco {
+    font-size: 2rem;
+    color: #3752A6;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+/* Lista de benefícios */
+.plano-beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Item individual de benefício */
+.beneficio-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    color: #4A4A4A;
+    position: relative;
+    padding-left: 1.5rem;
+}
+.beneficio-item::before {
+    content: "✓";
+    color: #6F8C30;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+/* Cobertura anual */
+.cobertura-anual {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-weight: bold;
+    color: #3752A6;
+}
+/* Botão de detalhes */
+.detalhes-toggle {
+    background: #F2ECE4;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 6px;
+    color: #3a5f11;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+.detalhes-toggle:hover {
+    background: #3a5f11;
+    color: white;
+}
+
+
+form {
+   margin: 20px; /* Margem em cima e embaixo do formulário */
+   padding: 10px; /* Espaçamento interno do formulário */
+   margin-right: 20px;
+   background-color: #FFFFFF; /* Fundo branco para o formulário */
+   border: 1px solid #DDDDDD; /* Borda leve */
+   border-radius: 5px; /* Bordas arredondadas */
+}
+
+form label {
+   display: block; /* Cada label em uma nova linha */
+   margin: 10px 0; /* Margem acima e abaixo das labels */
+   text-align: left; /* Centraliza o texto */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+   width: 95%; /* Largura total */
+   margin: 10px;
+   margin-right: 10px;
+   padding: 10px; /* Padding interno */
+   border: 1px solid #CCCCCC; /* Borda leve */
+   border-radius: 5px; /* Bordas arredondadas */
+}
+
+form input[type="submit"] {
+   background-color: #2C4174; 
+   color: #FFFFFF; 
+   border: none; 
+   padding: 10px 15px; 
+   border-radius: 5px; 
+   cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+form input[type="submit"]:hover {
+   background-color: #2C4174; /* Cor do botão ao passar o mouse */
+}
+
+#imagem-basico {
+    width: 350px; /* largura pequena */
+    height: auto; /* mantém a proporção */
+    display: block;
+    margin: 0 auto; /* centraliza a imagem */
+}
+
+#imagem-plus {
+    width: 350px; /* largura pequena */
+    height: auto; /* mantém a proporção */
+    display: block;
+    margin: 0 auto; /* centraliza a imagem */
+}
+
+#imagem-top {
+    width: 350px; /* largura pequena */
+    height: auto; /* mantém a proporção */
+    display: block;
+    margin: 0 auto; /* centraliza a imagem */
+}
+
+/*
+.plano-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ 
+ .tipo-plano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #F2ECE4;
+    border-radius: 8px;
+ }
+ 
+ .servicos-incluidos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+ }
+ 
+ .servicos-incluidos h4 {
+    align-self: flex-start;
+    color: #F28177;
+    margin-bottom: 15px;
+ }
+ 
+ .servicos-incluidos .conteudo {
+    text-align: left;
+    margin: 5px 0;
+    line-height: 1.6;
+ }
+ 
+ .tipo-plano img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+ }
+ 
+ .consulta-especialista {
+    font-style: inherit;
+    color: #4A4A4A;
+    margin: 15px 0;
+ }
+ .tipo-plano {
+       padding: 10px;
+   }
+   
+ .servicos-incluidos {
+       width: 95%;
+       padding: 15px;
+   }
+   
+*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries para responsividade */
+@media (max-width: 800px) {
+    .planos-titulo {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+    .planos-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .plano-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .planos-titulo {
+        font-size: 1.8rem;
+    }
+    .plano-card {
+        padding: 1.5rem;
+    }
+    .plano-preco {
+        font-size: 1.8rem;
+    }
+}

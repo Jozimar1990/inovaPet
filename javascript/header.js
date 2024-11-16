@@ -22,8 +22,9 @@ const paginas = [
 
 header.appendChild(logo)
 // logo.setAttribute("href", paginas[0].href)
+logo.id = "logo-header"
 logo.setAttribute("class", "item item1")
-logo.setAttribute("src", "")
+logo.setAttribute("src", "imagens/logo_com_fundo_sem_texto_grande.png")
 logo.setAttribute("alt", "logo")
 paginas.map((el, i)=>{
     const a = document.createElement("a");

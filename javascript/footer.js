@@ -37,10 +37,11 @@ sigaNos.appendChild(ul);
 footer.appendChild(div);
 footer.appendChild(sigaNos); // Adiciona o link ao footer
 
+
 /**<p>© 2024 InovaPet. Todos os direitos reservados.</p> */
 
-    {/* <i class="fab fa-facebook"></i> <!-- Facebook -->
+    /* <i class="fab fa-facebook"></i> <!-- Facebook -->
     <i class="fab fa-whatsapp"></i> <!-- WhatsApp -->
     <i class="fab fa-instagram"></i> <!-- Instagram -->
     <i class="fab fa-twitter"></i> <!-- Twitter -->
-    <i class="fab fa-linkedin"></i> <!-- LinkedIn --> */}
+    <i class="fab fa-linkedin"></i> <!-- LinkedIn --> */

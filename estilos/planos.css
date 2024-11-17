@@ -144,6 +144,16 @@ form input[type="submit"]:hover {
    background-color: #2C4174; /* Cor do botão ao passar o mouse */
 }
 
+.mensagem-sucesso {
+    display: none;
+    color: #4B6F3D;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
 #imagem-basico {
     width: 350px; /* largura pequena */
     height: auto; /* mantém a proporção */
@@ -164,84 +174,6 @@ form input[type="submit"]:hover {
     display: block;
     margin: 0 auto; /* centraliza a imagem */
 }
-
-/*
-.plano-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
- }
- 
- .tipo-plano {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #F2ECE4;
-    border-radius: 8px;
- }
- 
- .servicos-incluidos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 90%;
-    margin: 15px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
- }
- 
- .servicos-incluidos h4 {
-    align-self: flex-start;
-    color: #F28177;
-    margin-bottom: 15px;
- }
- 
- .servicos-incluidos .conteudo {
-    text-align: left;
-    margin: 5px 0;
-    line-height: 1.6;
- }
- 
- .tipo-plano img {
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
- }
- 
- .consulta-especialista {
-    font-style: inherit;
-    color: #4A4A4A;
-    margin: 15px 0;
- }
- .tipo-plano {
-       padding: 10px;
-   }
-   
- .servicos-incluidos {
-       width: 95%;
-       padding: 15px;
-   }
-   
-*/ 
-
-
-
-
-
-
-
-
-
-
-
 
 
 

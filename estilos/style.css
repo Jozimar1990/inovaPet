@@ -69,9 +69,14 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
    background-color: #2C4174; /* Cor do botão ao passar o mouse */
 }
-
-/* Header */
-
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* -----------------------HEADER - CABEÇALHO ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
 header {
    display: flex;
    background-color: #3752A6; /* Azul escuro do cabeçalho */
@@ -99,9 +104,7 @@ header h2 a {
    margin: 0px 10px;
 }
 
-header h2 a:hover {
-   text-decoration: underline; /* Sublinha o link ao passar o mouse */
-}
+header h2 a:hover {background-color: #2C4174;}
 
 /* Regra para a logo no header */
 #logo-header {
@@ -195,12 +198,17 @@ footer i, #p-footer, #siga-nos p{
 }
 
 .div-1{
-   grid-area: div1;
    display: grid;
-   grid-template-areas: "div2 div3";
+   grid-area: div1;
+   grid-template-areas: 
+   "div2 div3"
+   "div4 div4";
+   grid-template-rows: 50em, 50em;
    justify-content: center;
    align-content: center;
-   height: 80vh;
+   justify-items: stretch; /* Uniformiza a largura dos itens */
+   align-items: stretch; /* Adapta os itens à altura */
+   /* height: 80vh; */
 }
 .div-2{
    grid-area: div2;
@@ -208,15 +216,26 @@ footer i, #p-footer, #siga-nos p{
    justify-items: end;
 }
 .div-3{
-   width: 50vw;
    grid-area: div3;
+   width: 50vw;
    justify-items: end;
+}
+.div-3 > p{
+   margin: 10px;
+   text-justify: distribute;
+}
+.div-4{
+   align-self: center;
+   grid-area: div4;
+   width: 80vw;
+   padding: 20px;
 }
 #img-1{
    max-width: 50%; /* Imagem responsiva */
    height: auto; /* Mantém a proporção da imagem */
    margin: 20px 0;
    border-radius: 100%;
+   object-fit: cover;
 }
 #span{
    color: #F28177;
@@ -232,17 +251,18 @@ footer i, #p-footer, #siga-nos p{
    font-weight: bold;
    padding: 5px;
 }
-.index{
+/* .index{
    display: flex;
    flex-direction: column;
-}
-/* .index{
+} */
+.index{
    display: grid;
    grid-template-areas: 
    "cabecalho"
+   "slider"
    "div1"
    "rodape";
-} */
+}
 /* Estilização da página Sobre nós */
 .sobre-nos{
    display: grid;
@@ -473,6 +493,7 @@ form input[type="submit"]:hover {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 .slider{
+   grid-area: slider;
    position: relative;
    margin: 0 auto;
    width: 100%; /* Define a largura do carrossel */

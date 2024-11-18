@@ -12,7 +12,7 @@ const paginas = [
     },
     {
         titulo: "Sobre Nós",
-        href: "sobre_nos.html"
+        href: "#sobre_nos"
     },
     {
         titulo: "Minha Conta",

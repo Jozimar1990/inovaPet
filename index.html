@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="estilos/style.css">
     <script src="javascript/header.js" defer></script>
     <script src="javascript/footer.js" defer></script>
+    <script src="javascript/carrossel_animacao.js" defer></script>
+
     <title>InovaPet - Home </title>
 </head>
 
@@ -16,6 +18,42 @@
     <header>
         <!-- Conteúdo feito em JavaScript -->
     </header>
+    <div class="slider">
+        <div class="slides">
+            <!-- Radio Button -->
+            <input type="radio" name="radio-btn" id="radio1"></input>
+            <input type="radio" name="radio-btn" id="radio2"></input>
+            <input type="radio" name="radio-btn" id="radio3"></input>
+            <input type="radio" name="radio-btn" id="radio4"></input>
+            <!-- Slide imagens -->
+            <div class="slide first">
+                <img src="imagens/banner-01---cobertura.jpg" alt="imagem 1">
+            </div>
+            <div class="slide">
+                <img src="imagens/banner-02---semcarenciaecoparticipacao.jpg" alt="imagem 2">
+            </div>
+            <div class="slide">
+                <img src="imagens/banner-03---reembolso.jpg" alt="imagem 3">
+            </div>
+            <div class="slide">
+                <img src="imagens/banner-04---petsidosos.jpg" alt="imagem 4">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                
+            </div>
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div>
     <div class="div-1">
         <div class="div-2">
             <span id="span">InovaPet</span>

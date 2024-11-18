@@ -233,12 +233,16 @@ footer i, #p-footer, #siga-nos p{
    padding: 5px;
 }
 .index{
+   display: flex;
+   flex-direction: column;
+}
+/* .index{
    display: grid;
    grid-template-areas: 
    "cabecalho"
    "div1"
    "rodape";
-}
+} */
 /* Estilização da página Sobre nós */
 .sobre-nos{
    display: grid;
@@ -459,7 +463,122 @@ form input[type="submit"]:hover {
    margin: 0 auto; /* centraliza a imagem */
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* -----------------------CARROSSEL DE IMAGENS----------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
 
+.slider{
+   position: relative;
+   margin: 0 auto;
+   width: 100%; /* Define a largura do carrossel */
+   height: auto; /* Altura do carrossel */
+   overflow: hidden; /* Oculta as imagens excedentes */
+}
+.slides{
+   display: flex;
+   width: 100%; /* Multiplica pela quantidade de imagens */
+   height: 100%;
+   /* transition: transform 0.5s ease-in-out; Suaviza a transição */
+}
+.slides input{
+   display: none;
+}
 
+.slide{
+   width: 100%; /* Cada slide ocupa toda a largura do carrossel */
+   position: relative;
+   flex-shrink: 0;
+   transition: 2s;
+}
 
+.slide img {
+   width: 100%;
+   height: auto;
+   /* position: relative; */
+   object-fit: cover; /* Ajusta a imagem ao tamanho do carrossel */
+}
+/* Navegação manual (botões de rádio) */
+.manual-navigation {
+   position: absolute;
+   width: 100%;
+   margin-top: -40px;
+   bottom: 10px;
+   justify-content: center;
+   /* transform: translateX(-50%); */
+   display: flex;
+   gap: 10px;
+}
+.manual-btn{
+   width: 10px;
+   height: 10px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+   cursor: pointer;
+   background-color: transparent;
+   transition: background-color 1s ease;
+}
 
+.manual-btn:not(:last-child){
+   margin-right: 40px;
+}
+
+.manual-btn:hover{
+   background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+   margin-left: 0;
+   background-color: #fff;
+}
+#radio2:checked ~ .first{
+   margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+   margin-left: -200%;
+}
+
+#radio4:checked ~ .first{
+   margin-left: -300%;
+}
+
+.navigation-auto div{
+   border: 2px solid #fff;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.navigation-auto{
+   position: absolute;
+   width: 100%;
+   /* margin-top: 191.5px; */
+   display: flex;
+   justify-content: center;
+   align-self: self-end;
+   margin-bottom: 10px;
+   gap: 10px;
+}
+
+.navigation-auto div:not(:last-child){
+   margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+   background-color: #fff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+   background-color: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+   background-color: #fff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+   background-color: #fff;
+}

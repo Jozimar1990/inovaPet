@@ -69,6 +69,23 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
    background-color: #2C4174; /* Cor do botão ao passar o mouse */
 }
+
+/* Mensagem de erro */
+.helper-text {
+   color: lightcoral;
+   font-size: 12px;
+   display: none;  /* Inicialmente oculta */
+   margin-top: 5px;
+}
+
+/* Mensagem de sucesso */
+.mensagem-sucesso {
+   display: none; /* Inicialmente oculta */
+   color: #2C4174;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 10px;
+}
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */

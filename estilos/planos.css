@@ -147,14 +147,30 @@ form input[type="submit"]:hover {
    background-color: #2C4174; /* Cor do botão ao passar o mouse */
 }
 
-.mensagem-sucesso {
-    display: none;
-    color: #4B6F3D;
-    margin-top: 10px;
-    font-weight: bold;
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
 }
 
+input:focus {
+    border-color: #3752A6; /* Azul no foco */
+    outline: none;
+}
 
+.helper-text {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: block;
+    color: lightcoral;
+}
+
+.mensagem-sucesso {
+    color: #061940;
+    font-weight: bold;
+    margin-top: 1rem;
+}
 
 
 #imagem-basico {

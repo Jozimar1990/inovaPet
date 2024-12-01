@@ -10,11 +10,7 @@ const paginas = [
         titulo: "Planos e Serviços",
         href: "Planos_e_Serviços.html"
     },
-    {
-        titulo: "Sobre Nós",
-        href: "#sobre_nos"
-    },
-    {
+        {
         titulo: "Minha Conta",
         href: "Minha_conta.html"
     }

@@ -29,6 +29,7 @@ for(let i = 0; i < redesSociais.length; i++){
     li.appendChild(link); // Adiciona a tag "a" dentro da tag "li"
     ul.appendChild(li); // Adiciona a tag "li" dentro da "ul"
 }
+div.id = "copyright";
 sigaNos.id = "siga-nos";
 p.id = "p-footer";
 div.appendChild(p);

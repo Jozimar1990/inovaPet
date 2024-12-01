@@ -229,11 +229,14 @@ main {
     padding-block: var(--scroll-height); /* Adiciona espaçamento vertical (topo e base) baseado no valor da variável CSS '--scroll-height' */
 }
 
-div, img, p, button {
-    animation: appear 2ms ease-in-out; /* Adiciona uma animação chamada "appear" que dura 2ms, com uma curva de aceleração ease-in-out */
+
+main > section > div:not(.planos-sobre),
+main > div{
+    animation: appear 1ms ease-in-out; /* Adiciona uma animação chamada "appear" que dura 2ms, com uma curva de aceleração ease-in-out */
     animation-timeline: view(); /* Define a timeline da animação como a visibilidade do elemento no viewport */
-    animation-range: cover 0% cover 30%; /* Define que a animação será ativada quando 0% do elemento estiver visível e continuará até 40% */
+    animation-range: cover 0% cover 50%; /* Define que a animação será ativada quando 0% do elemento estiver visível e continuará até 40% */
 }
+
 
 .c-indicator {
     animation: scroll 1ms ease-in-out; /* Aplica a animação "scroll" com duração de 1ms e uma curva de aceleração ease-in-out */
@@ -248,7 +251,7 @@ div, img, p, button {
 @keyframes appear {
     from {
         opacity: 0; /* O elemento começa totalmente transparente */
-        translate: -80vw 0; /* O elemento começa deslocado 80% da largura da viewport para a esquerda */
+        translate: -100vw 0; /* O elemento começa deslocado 80% da largura da viewport para a esquerda */
     }
     to {
         opacity: 1; /* O elemento se torna totalmente visível */

@@ -232,7 +232,7 @@ footer i, #p-footer, #siga-nos p{
    margin-left: 20px;
    grid-area: div2;
    width: 50vw;
-   text-align: justify;
+   text-align: center;
    text-overflow: initial;
    justify-items: end;
 }

@@ -17,6 +17,7 @@
 
 /* Estilos gerais aplicáveis a todas as páginas */
 body {
+   width: 100vw;
    font-family: Arial, Helvetica, sans-serif; 
    margin: 0;
    padding: 0;
@@ -203,7 +204,7 @@ footer i, #p-footer, #siga-nos p{
    grid-template-areas: 
    "div2 div3"
    "div4 div4";
-   grid-template-rows: 50em, 50em;
+   grid-template-rows: 1fr, 1fr;
    justify-content: center;
    align-content: center;
    justify-items: stretch; /* Uniformiza a largura dos itens */
@@ -211,23 +212,38 @@ footer i, #p-footer, #siga-nos p{
    /* height: 80vh; */
 }
 .div-2{
+   margin-left: 20px;
    grid-area: div2;
    width: 50vw;
+   text-align: justify;
+   text-overflow: initial;
    justify-items: end;
 }
 .div-3{
+   overflow: hidden;
    grid-area: div3;
    width: 50vw;
    justify-items: end;
 }
+.div-4 p{
+   text-align: justify;
+}
+.div-2 > a{
+   padding-bottom: 20px;
+}
 .div-3 > p{
+   padding-bottom: 20px;
    margin: 10px;
+   text-align: justify;
    text-justify: distribute;
 }
+
 .div-4{
+   justify-content: center;
    align-self: center;
    grid-area: div4;
-   width: 80vw;
+   width: 90vw;
+   margin: 20px;
    padding: 20px;
 }
 #img-1{
@@ -242,21 +258,24 @@ footer i, #p-footer, #siga-nos p{
    font-size: 64px;
    font-weight: bold;
 }
-.div-2 a{
+.div-2 > a{
    background-color: #3752A6;
    color: #F2ECE4;
    font-size: 16px;
    border-radius: 5px;
    text-decoration: none;
    font-weight: bold;
-   padding: 5px;
+   padding: 15px;
 }
+
 /* .index{
    display: flex;
    flex-direction: column;
 } */
 .index{
    display: grid;
+   grid-template-columns: 100vw;
+   justify-content: center;
    grid-template-areas: 
    "cabecalho"
    "slider"

@@ -6,6 +6,7 @@
     <title>InovaPet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/my_acount.css">
     <script src="javascript/header.js" defer></script>
     <script src="javascript/footer.js" defer></script>
 </head>
@@ -14,26 +15,44 @@
     <header>
         <!-- Conteúdo feito no JavaScript -->
     </header>
-    <h1>Minha Conta</h1>
-    <h2>Preencha o formulario e receba por email os relatórios sobre o seu(s) pet(s). 
-        Com historicos de saúde recaitas e boletos para pagamentos.</h2>
-    <img src="imagens/arara.jpg" alt="">
+    <section>
+        <div>
+            <h1>Bem vindo!</h1>
+        </div>
+        <div class="dados-pessoais">
+            <div class="img-usuario">
+                <img src="imagens/usuario" alt="imagem usuário">
+            </div>
+            <div id="dados-pessoais">
+                <h3>Nome: Fulano da Silva</h3>
+                <h3>Contato: (92) 99999-9999</h3>
+                <h3>e-mail: fulano.silva@email.com</h3>
+            </div>
+        </div>
+        <div class="cards">
 
-    <!-- Formulário de pedio de relatório. -->
-    <form>
-        <label for="CPF do tutor">CPF do tutor:</label>
-        <input type="text" id="CPF do tutor" name="CPF do tutor"><br><br>
-    
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email"><br><br>
-    
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone"><br><br>
-    
-        <input type="submit" value="Enviar">
-        </form>
-        <footer>
-            <!-- Conteúdo criado em JavaScript -->
-        </footer>
+            <div class="meus-planos">
+                <h1>Meus Planos</h1>
+            </div>
+            <div class="meus-pets">
+                <h1>Meus Pets Dependentes</h1>
+            </div>
+            <div class="config-priv">
+                <h1>Configurações e Privacidade</h1>
+            </div>
+            <div class="info-seguranca">
+                <h1>Infomações de Segurança</h1>
+            </div>
+            <div class="historico">
+                <h1>Histórico de atendimento</h1>
+            </div>
+            <div class="agenda">
+                <h1>Agendamento</h1>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
 </body>
 </html>

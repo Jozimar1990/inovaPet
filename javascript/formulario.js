@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
               if (helperText) {
                   helperText.textContent = "Este campo é obrigatório.";
                   helperText.style.color = "lightcoral";
+                  helperText.style.display = "block";
               }
               return;
           }
@@ -55,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   if (helperText) {
                       helperText.textContent = "Por favor, insira um e-mail válido.";
                       helperText.style.color = "lightcoral";
+                      helperText.style.display = "block";
                   }
               }
           }
@@ -68,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   if (helperText) {
                       helperText.textContent = "Por favor, insira um telefone válido.";
                       helperText.style.color = "lightcoral";
+                      helperText.style.display = "block";
                   }
               }
           }
@@ -86,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const helperText = helperTexts[index];
           input.style.borderColor = ""; 
           if (helperText) {
-              helperText.textContent = ""; 
+              helperText.textContent = "none"; 
           }
       });
   });

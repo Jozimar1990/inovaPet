@@ -1,0 +1,81 @@
+:root {
+    --height: 200px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(236, 224, 224);
+}
+
+section {
+    flex: 1;
+    padding-block-start: 25px;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img-usuario{
+    align-content: center;
+}
+img{
+    height: 100px
+}
+.dados-pessoais{
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+#dados-pessoais{
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-width: 200px;
+    justify-items: stretch;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.meus-planos,
+.config-priv,
+.info-seguranca,
+.historico,
+.agenda,
+.meus-pets {
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: var(--height);
+    min-width: 220px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+    background-color: #061940;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .dados-pessoais, .meus-planos, .meus-pets {
+        height: auto;
+        flex-direction: column;
+    }
+    img {
+        width: 50px;
+    }
+}

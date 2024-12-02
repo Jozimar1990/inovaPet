@@ -6,6 +6,7 @@
     <title>InovaPet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/my_acount.css">
     <script src="javascript/header.js" defer></script>
     <script src="javascript/footer.js" defer></script>
     <script src="javascript/formulariologin.js" defer></script>
@@ -15,29 +16,44 @@
     <header>
         <!-- Conteúdo feito no JavaScript -->
     </header>
-    <h1>Minha Conta</h1>
-    <h2>Informe os dados abaixo para acessar todas as informações do seu aumigo.</h2>
-    <img src="imagens/arara.jpg" alt="">
+    <section>
+        <div>
+            <h1>Bem vindo!</h1>
+        </div>
+        <div class="dados-pessoais">
+            <div class="img-usuario">
+                <img src="imagens/usuario" alt="imagem usuário">
+            </div>
+            <div id="dados-pessoais">
+                <h3>Nome: Fulano da Silva</h3>
+                <h3>Contato: (92) 99999-9999</h3>
+                <h3>e-mail: fulano.silva@email.com</h3>
+            </div>
+        </div>
+        <div class="cards">
 
-    <!-- Formulário de login. -->
-    <div class="form-container">
-        <h2>Acessar cadastro de Pet</h2>
-        <form id="formulario">
-            <div class="form-group">
-                <label for="cpf">CPF:</label>
-                <input type="text" id="cpf" placeholder="Digite o CPF" maxlength="14">
-                <p class="helper-text" id="cpf-helper"></p>
+            <div class="meus-planos">
+                <h1>Meus Planos</h1>
             </div>
-            <div class="form-group">
-                <label for="id-pet">ID Pet:</label>
-                <input type="text" id="id-pet" placeholder="Digite o ID do Pet" maxlength="5">
-                <p class="helper-text" id="id-pet-helper"></p>
+            <div class="meus-pets">
+                <h1>Meus Pets Dependentes</h1>
             </div>
-            <input type="submit" value="Entrar">
-        </form>
-        <p class="mensagem-sucesso" id="mensagemSucesso">Login realizado com sucesso!</p>
-    </div>
-            <!-- Conteúdo criado em JavaScript -->
-        </footer>
+            <div class="config-priv">
+                <h1>Configurações e Privacidade</h1>
+            </div>
+            <div class="info-seguranca">
+                <h1>Infomações de Segurança</h1>
+            </div>
+            <div class="historico">
+                <h1>Histórico de atendimento</h1>
+            </div>
+            <div class="agenda">
+                <h1>Agendamento</h1>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
 </body>
 </html>
